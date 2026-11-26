@@ -1,6 +1,6 @@
-# Mark Boxsell — Portfolio
+# Mark Boxsell — Academic Portfolio
 
-A lightweight, responsive personal portfolio built with plain HTML, CSS, and JavaScript. It has no build step or package dependencies and is published to GitHub Pages by GitHub Actions.
+A lightweight, responsive academic portfolio built with plain HTML and CSS. It has no build step or package dependencies and is published to GitHub Pages by GitHub Actions.
 
 ## Preview locally
 
@@ -14,16 +14,13 @@ Then visit [http://localhost:8000](http://localhost:8000).
 
 ## Make it yours
 
-All site content lives in `index.html`. Update the introduction, About copy, project cards, and contact link to reflect your own details. The current external links point to the `mark-boxsell` GitHub profile and repositories; replace them if you change the portfolio owner.
+All site content lives in `index.html`. The About, Presentations, Publications, and Teaching sections are intentionally empty. Add your own text and links there; for a PDF, use a link such as `<a href="files/example.pdf">PDF</a>` and place the file in the repository.
 
 - Edit the page title and description in the document `<head>` for search and sharing previews.
-- Update the project names, descriptions, labels, and destinations in the Work section.
-- Change the contact button to your preferred public contact method.
 - Adjust colors, typography, spacing, and responsive breakpoints in `styles.css`.
-- The mobile navigation behavior and automatically updated footer year are in `script.js`.
 - Replace `favicon.svg` to use a different browser-tab icon.
 
-The page uses Google Fonts when a network connection is available and falls back to system sans-serif fonts if it is not.
+The page uses system fonts and does not require an external network connection.
 
 ## Deploy to GitHub Pages
 
